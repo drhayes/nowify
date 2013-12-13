@@ -4,7 +4,7 @@
 
 module.exports = function() {
   if (global.performance && global.performance.now) {
-    return global.performance.now;
+    return global.performance.now.bind(global.performance);
   }
 
   // Fake it. Use +new Date() because IE sucks and doesn't have .now().

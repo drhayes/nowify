@@ -13,7 +13,8 @@ describe('performance.now polyfill', function() {
       now: sinon.spy()
     };
     var now = perfnow();
-    assert.equal(global.performance.now, now);
+    now();
+    assert(global.performance.now.called);
     delete global.performance;
   });
 

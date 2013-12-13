@@ -1,6 +1,6 @@
 {
   "name": "nowify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "performance.now polyfill that works with browserify.",
   "main": "index.js",
   "scripts": {
