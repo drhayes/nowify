@@ -1,0 +1,23 @@
+{
+  "name": "nowify",
+  "version": "0.0.1",
+  "description": "performance.now polyfill that works with browserify.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/jshint/bin/jshint index.js **/*.js && node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drhayes/nowify.git"
+  },
+  "author": "David Hayes <drhayes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drhayes/nowify/issues"
+  },
+  "devDependencies": {
+    "jshint": "~2.3.0",
+    "mocha": "~1.15.1",
+    "sinon": "~1.7.3"
+  }
+}
