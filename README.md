@@ -11,11 +11,11 @@ First:
 
 Then:
 
-    var nowify = require('nowify');
+    var now = require('nowify');
 
-    var start = nowify();
+    var start = now();
     setTimeout(function() {
-      var end = nowify();
+      var end = now();
       alert(end - start);
     }, 10);
 
